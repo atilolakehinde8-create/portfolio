@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="atilola feranmi - Backend Developer & Game Developer (Godot) building secure APIs, scalable systems, and engaging 2D game experiences.">
+    <meta name="keywords" content="Backend Developer, Django, Python, PostgreSQL, API, DevOps, Docker, Godot, GDScript, Game Development, WebSocket">
+    <meta name="author" content="atilola feranmi">
+    <title>atilola feranmi | Backend Developer & Godot Game Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">atilola feranmi</div>
+            <ul id="navMenu" class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu" onclick="toggleMenu()">☰</div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <img src="images/feranmi.jpg" alt="atilola feranmi" class="hero-image">
+            <h1>atilola feranmi</h1>
+            <p class="subtitle">Backend Developer & Godot Game Developer</p>
+            <p>Building production-ready backend systems and reliable APIs, while also crafting engaging 2D gameplay experiences with Godot.</p>
+            <p>Experienced in Django, REST APIs, PostgreSQL, Celery, Redis for game development.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="files/feranmi_cv.pdf" class="btn btn-secondary" download>Download CV</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">↓</div>
+    </section>
+
+    <!-- Professional Profile Section -->
+    <section id="profile" class="section">
+        <div class="container">
+            <h2 class="section-title">Professional Profile</h2>
+            <div class="profile-content">
+                <p>Backend developer with a strong focus on reliability, security, and scalability. I build APIs and services that support modern web applications and help teams move quickly without sacrificing stability.</p>
+                <p>My backend work includes Django, Django REST Framework, Celery, Redis, PostgreSQL, and Docker. I also enjoy building game prototypes and interactive 2D experiences in Godot using GDScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">Expertise across backend development, cloud tooling, and game development with Godot.</p>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Backend Development</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Django</span>
+                        <span class="tag">Django REST Framework</span>
+                        <span class="tag">Celery</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>API & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="tag">REST APIs</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Gunicorn</span>
+                        <span class="tag">Nginx</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Data & Cache</h3>
+                    <div class="skill-tags">
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">SQLite</span>
+                        <span class="tag">Redis</span>
+                        <span class="tag">Cache Design</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Auth & Security</h3>
+                    <div class="skill-tags">
+                        <span class="tag">JWT</span>
+                        <span class="tag">OTP</span>
+                        <span class="tag">Rate limiting</span>
+                        <span class="tag">Secure APIs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <p class="section-subtitle">Building backend systems, secure APIs, and production-ready services.</p>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <h3>Backend Developer (Django)</h3>
+                    <p class="experience-company">Current role</p>
+                    <p>Developed REST APIs with Django and DRF, built async workflows with Celery and Redis, and deployed services with Docker and Nginx.</p>
+                    <ul>
+                        <li>Implemented JWT authentication, rate limiting, and secure API endpoints.</li>
+                        <li>Designed PostgreSQL schemas and optimized database queries.</li>
+                        <li>Built monitoring and logging for production systems.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h3>Freelance Backend & API Developer</h3>
+                    <p class="experience-company">Remote</p>
+                    <p>Delivered custom backend solutions for web applications, including secure integrations, webhook services, and cloud-ready deployments.</p>
+                    <ul>
+                        <li>Created reusable API modules and clean service architecture.</li>
+                        <li>Developed integration endpoints for external services and payment APIs.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h3>Game Developer (Godot)</h3>
+                    <p class="experience-company">Personal projects</p>
+                    <p>Built 2D game prototypes with player controls, tilemap worlds, animation, and save/load support in Godot.</p>
+                    <ul>
+                        <li>Implemented smooth player movement, collisions, and projectile mechanics.</li>
+                        <li>Built tile-based levels with parallax backgrounds and interactive items.</li>
+                        <li>Created save/load systems using JSON and file persistence.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">Selected examples of backend systems and game development work.</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Real-Time Chat Application</h3>
+                    <p>Built a live chat system with Django Channels and WebSockets for persistent messaging and real-time updates.</p>
+                    <div class="skill-tags"><span class="tag">Django</span><span class="tag">Channels</span><span class="tag">WebSockets</span><span class="tag">Redis</span></div>
+                </div>
+                <div class="project-card">
+                    <h3>Secure API System</h3>
+                    <p>Created a confidential backend service with role-based access, secure data handling, and JWT authentication.</p>
+                    <div class="skill-tags"><span class="tag">Django</span><span class="tag">Python</span><span class="tag">REST API</span><span class="tag">Security</span></div>
+                </div>
+                <div class="project-card">
+                    <h3>Reactor Frontend</h3>
+                    <p>Built a frontend application with React, integrated with a backend using Express.js and Node.js for API handling and server-side logic.</p>
+                    <div class="skill-tags"><span class="tag">React</span><span class="tag">Express.js</span><span class="tag">Node.js</span><span class="tag">API Integration</span></div>
+                    <div class="project-card__links"><a href="https://github.com/animasaunfarouk0-prog/farouk-port" target="_blank">View on GitHub</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <p class="section-subtitle">Ready to collaborate on backend systems or game prototypes? Send a message and let’s connect.</p>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><strong>Email:</strong> <a href="mailto:animasaunfarouk0@gmail.com">animasaunfarouk0@gmail.com</a></p>
+                    <p><strong>Location:</strong> Lagos, Nigeria / Remote</p>
+                    <div class="social-links">
+                        <a href="https://github.com/animasaunfarouk0-prog" target="_blank">GitHub</a>
+                        <a href="https://www.linkedin.com/in/farouk-animasaun-80960b306" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group"><label for="name">Name</label><input type="text" id="name" placeholder="Your name" required></div>
+                    <div class="form-group"><label for="email">Email</label><input type="email" id="email" placeholder="your@email.com" required></div>
+                    <div class="form-group"><label for="message">Message</label><textarea id="message" placeholder="Tell me about your project..." required></textarea></div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Animasaun Farouq | Backend Developer & Godot Game Developer</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
